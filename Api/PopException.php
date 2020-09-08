@@ -3,11 +3,15 @@
 *异常类
 */
 namespace Alipay\Api;
-use Alipay\Api;
-class PopException extends \Exception{
-	public function errorMessage($errorMessage){
 
-		$errorMsg = "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+use Alipay\Api;
+
+class PopException extends \Exception
+{
+    public function errorMessage($errorMessage)
+    {
+
+        $errorMsg = "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
 					<html xmlns='http://www.w3.org/1999/xhtml'>
 					<head>
 						<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -46,6 +50,6 @@ class PopException extends \Exception{
 						</div>
 					</body>
 					</html>";
-		echo $errorMsg;
-	}
+        echo $errorMsg;
+    }
 }
