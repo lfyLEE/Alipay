@@ -84,14 +84,3 @@ class Refund extends Common{
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-?>

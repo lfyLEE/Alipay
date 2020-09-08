@@ -171,11 +171,3 @@ class Pay extends Common{
 	}
 
 }
-
-
-
-
-
-
-
-?>

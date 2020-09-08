@@ -10,7 +10,8 @@ namespace Alipay;
 
 use Alipay\Api;
 
-class Autoload{
+class Autoload
+{
 
     const NAMESPACE_PREFIX = 'Alipay\\';
 

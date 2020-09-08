@@ -68,19 +68,3 @@ class TradeQuery extends Common{
 		return json_encode($params);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>

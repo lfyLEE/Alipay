@@ -26,20 +26,3 @@ class OrderSettle extends Common{
 	public $operator_id;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>

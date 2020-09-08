@@ -68,21 +68,3 @@ class QueryRefund extends Common{
 		return json_encode($params);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>

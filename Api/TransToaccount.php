@@ -73,12 +73,4 @@ class TransToaccount extends Common{
 		//返回json数据
 		return json_encode($params);
 	}
-
-
-
-
-
-
-
 }
-?>

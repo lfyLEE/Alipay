@@ -61,13 +61,3 @@ class OrderQuery extends Common{
 		return json_encode($params);
 	}
 }
-
-
-
-
-
-
-
-
-
-?>

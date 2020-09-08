@@ -49,14 +49,3 @@ class PopException extends \Exception{
 		echo $errorMsg;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-?>
